@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Reporiffic!
 
-## Getting Started
+See all your team's PRs in one place, organised by repository. This is super useful for teams who have many multiple repos in their remit - it can sometimes be a struggle to have an overview of everything that's open and up for review and this little app aims to solve that.
 
-First, run the development server:
+## The plan:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Create a next.js app with the shiny new app router ✅
+- Use Github auth to sign in and get user tokens
+  - Create Github app ✅ (https://github.com/settings/apps/reporiffic)
+  - Deploy to Vercel ✅
+  - Set up Github auth 👈🏻 currently working on this
+- Use React Server Components for data fetching
+- Display a bunch of repos and PRs!
+- Add a nice vintage look-and-feel interface
+- Add the ability to "star" repos that are important to you
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Let's see how this goes! It is my intention to blog about my progress at danaciocan.com, so do follow along there if you find this idea interesting.
