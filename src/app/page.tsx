@@ -11,10 +11,7 @@ export default async function Home() {
     <div>
       {session && (
         <div>
-          <WelcomeBanner
-            name={session.user?.name?.split(' ')[0]}
-            team='some-team'
-          />
+          <WelcomeBanner name={session.user?.name?.split(' ')[0]} />
           <a href='/api/auth/signout'>Sign out</a>
         </div>
       )}
