@@ -22,6 +22,7 @@ See all your team's PRs in one place, organised by repository. This is super use
   - Create Github app ✅ (https://github.com/settings/apps/reporiffic)
   - Deploy to Vercel ✅
   - Set up Github auth ✅
+- Add Storybook
 - Use React Server Components for data fetching
 - Display a bunch of repos and PRs!
 - Add a nice vintage look-and-feel interface
