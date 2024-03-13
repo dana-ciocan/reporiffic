@@ -12,7 +12,7 @@ export default async function Home() {
       {session && (
         <div>
           <WelcomeBanner
-            name={session.user?.name?.split(' ')[0] || 'there'}
+            name={session.user?.name?.split(' ')[0]}
             team='some-team'
           />
           <a href='/api/auth/signout'>Sign out</a>
