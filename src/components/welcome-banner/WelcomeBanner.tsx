@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './WelcomeBanner.module.css';
 
 export interface WelcomeBannerProps {
