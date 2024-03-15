@@ -2,6 +2,7 @@ import React from 'react';
 import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/app/lib/auth';
 import { WelcomeBanner } from '@/components/welcome-banner/WelcomeBanner';
+import { TopMenu } from '@/components/top-menu/TopMenu';
 
 export default async function Home() {
   // Get user session token
@@ -10,14 +11,14 @@ export default async function Home() {
 
   return (
     <div>
+      {!session && <p>Not signed in</p>}
       {session && (
         <div>
+          <TopMenu />
+
           <WelcomeBanner name={session.user?.name?.split(' ')[0]} />
-          <a href='/api/auth/signout'>Sign out</a>
         </div>
       )}
-
-      {!session && <p>Not signed in</p>}
     </div>
   );
 }
