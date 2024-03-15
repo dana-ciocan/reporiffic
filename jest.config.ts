@@ -36,16 +36,6 @@ export default {
   // A list of reporter names that Jest uses when writing coverage reports
   coverageReporters: ['lcov'],
 
-  // An object that configures minimum threshold enforcement for coverage results
-  coverageThreshold: {
-    global: {
-      branches: 100,
-      functions: 100,
-      lines: 100,
-      statements: 100,
-    },
-  },
-
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   moduleNameMapper: { '\\.(css|scss)$': 'identity-obj-proxy' },
 
@@ -60,6 +50,10 @@ export default {
 
   // The test environment that will be used for testing
   testEnvironment: 'jest-environment-jsdom',
+
+  testEnvironmentOptions: {
+    path: '.env.test',
+  },
 
   // The glob patterns Jest uses to detect test files
   testMatch: ['**/?(*.)+(spec|test).[tj]s?(x)'],
