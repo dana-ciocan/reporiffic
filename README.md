@@ -25,6 +25,10 @@ npm run storybook
 
 Then go to http://localhost:6006/ to see the components in Storybook
 
+## Chromatic
+
+This project has Chromatic installed - the URL for Chromatic is https://www.chromatic.com/build?appId=65f992d230ebb981291a0166
+
 ## The plan:
 
 - Create a next.js app with the shiny new app router ✅
@@ -32,7 +36,8 @@ Then go to http://localhost:6006/ to see the components in Storybook
   - Create Github app ✅ (https://github.com/settings/apps/reporiffic)
   - Deploy to Vercel ✅
   - Set up Github auth ✅
-- Add Storybook 👈🏻 currently working on this
+- Add Storybook ✅
+- Add Chromatic 👈🏻 currently working on this
 - Use React Server Components for data fetching
 - Display a bunch of repos and PRs!
 - Add a nice vintage look-and-feel interface
