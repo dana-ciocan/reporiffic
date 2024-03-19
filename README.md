@@ -15,6 +15,14 @@ See all your team's PRs in one place, organised by repository. This is super use
 1. Authorise Reporiffic
 1. You will get sent back to the app
 
+## Running Storybook
+
+I've set up Storybook for viewing the UI components in this project. To view it locally, run the following command:
+
+```bash
+npm run storybook
+```
+
 ## The plan:
 
 - Create a next.js app with the shiny new app router ✅
@@ -22,7 +30,7 @@ See all your team's PRs in one place, organised by repository. This is super use
   - Create Github app ✅ (https://github.com/settings/apps/reporiffic)
   - Deploy to Vercel ✅
   - Set up Github auth ✅
-- Add Storybook
+- Add Storybook 👈🏻 currently working on this
 - Use React Server Components for data fetching
 - Display a bunch of repos and PRs!
 - Add a nice vintage look-and-feel interface
