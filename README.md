@@ -23,6 +23,8 @@ I've set up Storybook for viewing the UI components in this project. To view it 
 npm run storybook
 ```
 
+Then go to http://localhost:6006/ to see the components in Storybook
+
 ## The plan:
 
 - Create a next.js app with the shiny new app router ✅
