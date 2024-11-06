@@ -96,8 +96,15 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: darkturquoise;
+}
+
+a:visited {
+  color: mediumorchid;
+}
+
+a:hover {
+  color: fuchsia;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -122,4 +129,8 @@ h2 {
 code {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+}
+
+main {
+  padding: 3rem;
 }
