@@ -6,7 +6,7 @@ export interface WelcomeBannerProps {
 }
 
 export const WelcomeBanner = ({
-  name = '',
+  name = 'there',
 }: WelcomeBannerProps): JSX.Element => {
   return (
     <div className={styles.banner}>
